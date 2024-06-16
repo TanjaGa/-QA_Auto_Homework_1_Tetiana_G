@@ -1,0 +1,34 @@
+{
+    "name": "Simon",
+    "age": 14.5,
+    "color": "Gray",
+    "isIndoor": true,
+    "MainFoods":[
+      "Hay",
+      "Versele-Laga Complete Chinchilla & Degu",
+      "OXBOW Animal Health Critical Care"
+    ],
+    "AdditionalFoods":["Vitakraft emotion beauty"],
+    "favoriteFoods": [
+      "Carrot", 
+      "Dandelion", 
+      "Apple"
+    ],
+    "health": {
+      "vaccinated": false,
+      "weightKg": 0.45,
+      "medicalCheckup":true
+    },
+
+
+"ownerContact": {
+  "name": "Tetiana",
+  "phoneNumber": "+123456789",
+  "email": "myemail@example.com",
+  "address": {
+    "street": "MyStreet1",
+    "city": "Charkiw",
+    "postalCode": "12345"
+  }
+}
+}
