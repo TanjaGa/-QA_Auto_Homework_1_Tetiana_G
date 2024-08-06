@@ -15,17 +15,17 @@ public Message(String senderName, String receiverName, String textMessage) {
 
     @Override
     public String getSenderName() {
-        return "SenderName";
+        return senderName;
     }
 
     @Override
     public String getReceiverName() {
-        return "ReceiverName";
+        return receiverName;
     }
 
     @Override
     public String getTextMessage() {
-        return "TextMessage";
+        return textMessage;
     }
 
     @Override

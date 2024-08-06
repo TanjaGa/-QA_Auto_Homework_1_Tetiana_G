@@ -16,14 +16,23 @@ masha.addContact(tania);
 tania.addContact(masha);
 tania.addContact(tania);
 
-lisa.sendMessage(masha,"Hello Masha! How are you");
-        System.out.println(lisa.getUserName() +" sent message to "+masha.getUserName());
-lisa.sendMessage(tania,"Hello Tania! How are you");
-        System.out.println(lisa.getUserName() +" sent message to "+tania.getUserName());
+lisa.sendMessage(masha,"Hello Masha! How are you?");
+lisa.sendMessage(tania,"Hello Tania! How are you?");
+
+masha.sendMessage(lisa,"I'm fine! and you?");
+tania.sendMessage(lisa, "Hi! I'm pretty good! How was your week?");
 
 
-Message receiveMessage = masha.getMessages().get(0);
-System.out.println(receiveMessage.getStatus());
+masha.readAllMessages();
+tania.readAllMessages();
+lisa.readAllMessages();
+
+// Вивід повідомлень зі статусом READ
+masha.showMessage(MessageStatus.READ);
+
+// Вивід повідомлень зі статусом SENT
+lisa.showMessage(MessageStatus.SENT);
+
 
 
     }
