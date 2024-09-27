@@ -1,0 +1,24 @@
+2024-09-27 11:00:16 /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+2024-09-27 11:00:16 /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+2024-09-27 11:00:16 /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+2024-09-27 11:00:16 10-listen-on-ipv6-by-default.sh: info: IPv6 listen already enabled
+2024-09-27 11:00:16 /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+2024-09-27 11:00:16 /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+2024-09-27 11:00:16 /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+2024-09-27 11:00:16 /docker-entrypoint.sh: Configuration complete; ready for start up
+2024-09-27 11:00:31 172.17.0.1 - - [27/Sep/2024:08:00:31 +0000] "GET / HTTP/1.1" 200 651 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" "-"
+2024-09-27 11:00:31 172.17.0.1 - - [27/Sep/2024:08:00:31 +0000] "GET /static/css/main.27312bf9.css HTTP/1.1" 200 791 "http://localhost:8088/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" "-"
+2024-09-27 11:00:31 172.17.0.1 - - [27/Sep/2024:08:00:31 +0000] "GET /static/js/main.c9e951e4.js HTTP/1.1" 200 382506 "http://localhost:8088/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" "-"
+2024-09-27 11:00:31 172.17.0.1 - - [27/Sep/2024:08:00:31 +0000] "GET /favicon.ico HTTP/1.1" 200 15086 "http://localhost:8088/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" "-"
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: using the "epoll" event method
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: nginx/1.25.3
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: start worker processes
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: start worker process 22
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: start worker process 23
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: start worker process 24
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: start worker process 25
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: start worker process 26
+2024-09-27 11:00:16 2024/09/27 08:00:16 [notice] 1#1: start worker process 27
